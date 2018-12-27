@@ -103,7 +103,7 @@ class Wine
         return $this;
     }
 
-    public function getProducer(): Producer
+    public function getProducer(): ?Producer
     {
         return $this->producer;
     }

@@ -57,7 +57,7 @@ class Region
         return $this;
     }
 
-    public function getCountry(): Country
+    public function getCountry(): ?Country
     {
         return $this->country;
     }
